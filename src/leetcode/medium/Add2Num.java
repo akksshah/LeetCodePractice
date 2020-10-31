@@ -1,46 +1,10 @@
 package leetcode.medium;
 
-public class Add2Num {
-    public static void main(String[] args) {
-        Solution s = new Solution();
+import Utility.ListNode;
 
-        ListNode l1 = new ListNode(2);
-        ListNode l1copy = l1.next = new ListNode(4);
-        l1copy.next = new ListNode(6);
-
-        ListNode l2 = new ListNode(5);
-        ListNode l2copy = l2.next = new ListNode(6);
-        l2copy.next = new ListNode(4);
-
-        var x = s.addTwoNumbers(l1, l2);
-        System.out.println("Done");
-    }
-}
-
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
-
-class ListNode {
-    int val;
-
-    ListNode next;
-
-    public ListNode() {}
-
-    public ListNode(int val) { this.val = val; }
-
-    public ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-}
-class Solution {
+class Add2Num {
     private ListNode head = new ListNode(0);
+
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         var node = head;
         int carry = 0;
