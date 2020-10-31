@@ -6,10 +6,19 @@ public class Solution {
             case "RemoveDuplicates":
             case "LeetCode26":
             case "LC26":
-                // Define input
-                int[] intArray = new int[]{};
                 System.out.println("Returned length of the new Array: "
-                                       + new RemoveDuplicates().removeDuplicates(intArray));
+                                       + new RemoveDuplicates().removeDuplicates(new int[]{}));
+                break;
+            case "RemoveElement":
+            case "LeetCode27":
+            case "LC27":
+                System.out.println("Returned length of the new Array: "
+                                       + new RemoveElement().removeElement(new int[]{}, 0));
+                break;
+            case "strStr":
+            case "LeetCode28":
+            case "LC28":
+                System.out.println("Index of needle in haystack: " + new StrStr().strStr("", ""));
         }
     }
 }
