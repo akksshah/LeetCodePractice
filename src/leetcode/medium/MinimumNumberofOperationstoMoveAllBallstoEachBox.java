@@ -2,11 +2,7 @@ package leetcode.medium;
 
 import org.junit.Test;
 
-import java.sql.Array;
-import java.util.Arrays;
-import java.util.stream.IntStream;
-
-import Utility.ArrayAsString;
+import utility.ArrayAsString;
 
 import static org.junit.Assert.assertEquals;
 

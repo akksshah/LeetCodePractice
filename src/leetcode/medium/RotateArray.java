@@ -1,11 +1,10 @@
 package leetcode.medium;
 
-import org.junit.After;
 import org.junit.Test;
 
 import java.util.stream.IntStream;
 
-import Utility.ArrayAsString;
+import utility.ArrayAsString;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;

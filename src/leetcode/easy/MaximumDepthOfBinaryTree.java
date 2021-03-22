@@ -2,7 +2,7 @@ package leetcode.easy;
 
 import org.junit.Test;
 
-import Utility.TreeNode;
+import utility.TreeNode;
 
 /**
  * <p>Leetcode question: 104</p>

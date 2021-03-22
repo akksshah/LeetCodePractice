@@ -2,9 +2,7 @@ package leetcode.easy;
 
 import org.junit.Test;
 
-import java.util.Arrays;
-
-import Utility.ArrayAsString;
+import utility.ArrayAsString;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;

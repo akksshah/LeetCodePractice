@@ -1,6 +1,6 @@
 package leetcode.medium;
 
-import Utility.ListNode;
+import utility.ListNode;
 
 public class Solution {
     public static void main(String[] args) {

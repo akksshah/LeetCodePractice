@@ -1,6 +1,6 @@
 package leetcode.medium;
 
-import Utility.ListNode;
+import utility.ListNode;
 
 class Add2Num {
     private ListNode head = new ListNode(0);

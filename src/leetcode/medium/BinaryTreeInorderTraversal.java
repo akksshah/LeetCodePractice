@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-import Utility.TreeNode;
+import utility.TreeNode;
 
 /**
  * <p>Leetcode question: 94</p>
