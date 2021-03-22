@@ -1,4 +1,4 @@
-package leetcode.monthly.march;
+package leetcode.medium;
 
 import org.junit.Test;
 
