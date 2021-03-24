@@ -19,7 +19,7 @@ import static org.junit.Assert.assertTrue;
  * Link to preferred solution
  * Tag: medium
  */
-public class KeysAndPairs {
+public class KeysAndRooms {
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         Queue<Integer> queue = new LinkedList<>();
         Set<Integer> visitedRooms = new HashSet<>();
@@ -39,7 +39,7 @@ public class KeysAndPairs {
 
     @Test
     public void test1() {
-        KeysAndPairs obj = new KeysAndPairs();
+        KeysAndRooms obj = new KeysAndRooms();
         String strings = "[[1],[2],[3],[]]"; // demo input
         List<List<Integer>> lists = new ArrayList<>();
         List<Integer> zero = new ArrayList<>();
@@ -58,7 +58,7 @@ public class KeysAndPairs {
 
     @Test
     public void test2() {
-        KeysAndPairs obj = new KeysAndPairs();
+        KeysAndRooms obj = new KeysAndRooms();
         String strings = "[[1,3],[3,0,1],[2],[0]]"; // demo input
         List<List<Integer>> lists = new ArrayList<>();
         List<Integer> zero = new ArrayList<>();
