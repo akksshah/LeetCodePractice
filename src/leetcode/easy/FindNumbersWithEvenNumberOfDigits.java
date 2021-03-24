@@ -23,7 +23,7 @@ import static org.junit.Assert.assertFalse;
  */
 public class FindNumbersWithEvenNumberOfDigits {
     public int findNumbers(int[] nums) {
-        return Arrays.stream(nums).mapToObj(i -> String.valueOf(i)).filter(i -> i.length() % 2 == 0).collect(Collectors.toList()).size();
+        return Arrays.stream(nums).mapToObj(String::valueOf).filter(i -> i.length() % 2 == 0).collect(Collectors.toList()).size();
     }
 
     @Test
