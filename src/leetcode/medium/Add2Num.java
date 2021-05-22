@@ -2,6 +2,12 @@ package leetcode.medium;
 
 import utility.ListNode;
 
+/**
+ * <p>Leetcode question: 2</p>
+ * <p>Link to question: https://leetcode.com/problems/add-two-numbers/</p>
+ * <p>Link to solution: My solution</p>
+ * <p>Link to preferred solution: </p>
+ */
 class Add2Num {
     private ListNode head = new ListNode(0);
 

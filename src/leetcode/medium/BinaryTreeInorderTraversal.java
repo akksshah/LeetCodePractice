@@ -33,7 +33,7 @@ public class BinaryTreeInorderTraversal {
 
     @Test
     public void test1() {
-
+        inorderTraversal(TreeNode.insertLevelOrder(new Integer[]{3,9,20,null,null,15,7}, new TreeNode(), 0)).forEach(System.out::println);
     }
 
     @Test
