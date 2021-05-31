@@ -2,12 +2,6 @@
 
 [![CI Tests](https://github.com/akksshah/LeetCodePractice/actions/workflows/maven.yml/badge.svg)](https://github.com/akksshah/LeetCodePractice/actions/workflows/maven.yml)
 
-## Helpful packages
-Visualize leetcode trees
-```
-$ npm install -g treevis
-$ treevis <array>
-```
 ## Table of Contents
 
 LC QNo. | name | Tag | Solution | Notes
@@ -21,4 +15,11 @@ LC QNo. | name | Tag | Solution | Notes
 []() | | medium | [Solution]() |
 []() | | medium | [Solution]() |
 []() | | medium | [Solution]() |
-[]() | | medium | [Solution]() | 
+[]() | | medium | [Solution]() |
+
+## Helpful packages
+Visualize leetcode trees
+```
+$ npm install -g treevis
+$ treevis <array>
+```
