@@ -1,5 +1,7 @@
 # LeetCodePractice
 
+[![CI Tests](https://github.com/akksshah/LeetCodePractice/actions/workflows/maven.yml/badge.svg)](https://github.com/akksshah/LeetCodePractice/actions/workflows/maven.yml)
+
 ## Helpful packages
 Visualize leetcode trees
 ```
