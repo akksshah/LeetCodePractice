@@ -6,3 +6,4 @@ out/
 .idea/
 **/bin/
 /python/~$LC.xlsx
+**/*.ipynb_checkpoints

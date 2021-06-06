@@ -6,7 +6,7 @@ import utility.ArrayAsString;
 
 import static org.junit.Assert.assertEquals;
 
-public class MinimumNumberofOperationstoMoveAllBallstoEachBox {
+public class MinimumNumberOfOperationsToMoveAllBallsToEachBox {
     public int[] minOperations(String boxes) {
         int[] left = new int[boxes.length()];
         int count = boxes.charAt(0) - '0';
@@ -29,13 +29,13 @@ public class MinimumNumberofOperationstoMoveAllBallstoEachBox {
 
     @Test
     public void test1() {
-        MinimumNumberofOperationstoMoveAllBallstoEachBox obj = new MinimumNumberofOperationstoMoveAllBallstoEachBox();
+        MinimumNumberOfOperationsToMoveAllBallsToEachBox obj = new MinimumNumberOfOperationsToMoveAllBallsToEachBox();
         assertEquals(ArrayAsString.stringify(new int[]{1, 1, 3}), ArrayAsString.stringify(obj.minOperations("110")));
     }
 
     @Test
     public void test2() {
-        MinimumNumberofOperationstoMoveAllBallstoEachBox obj = new MinimumNumberofOperationstoMoveAllBallstoEachBox();
+        MinimumNumberOfOperationsToMoveAllBallsToEachBox obj = new MinimumNumberOfOperationsToMoveAllBallsToEachBox();
         assertEquals(ArrayAsString.stringify(new int[]{11, 8, 5, 4, 3, 4}), ArrayAsString.stringify(obj.minOperations("001011")));
     }
 }
