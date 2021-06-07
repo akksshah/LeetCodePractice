@@ -26,7 +26,7 @@ jobs:
     - name: Test With Maven
       run: mvn test
   
-  build-and-deploy:
+  update-readme-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: 🍽️ Get working copy
@@ -48,6 +48,6 @@ jobs:
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git add .
-          git commit -am "feat(auto generate): Updated content"
+          git commit -am "README(auto generate): Updated content"
           git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
 
