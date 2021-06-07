@@ -1,4 +1,5 @@
-# LeetCodePractice
+# LeetCode Practice
+### By Aakash
 
 [![CI Tests](https://github.com/akksshah/LeetCodePractice/actions/workflows/maven.yml/badge.svg)](https://github.com/akksshah/LeetCodePractice/actions/workflows/maven.yml)
 
@@ -165,10 +166,5 @@ LC QNo. | name | Tag | Notes | Solution
 [1791](https://leetcode.com/problems/find-center-of-star-graph/) | Find Center of Star Graph | medium |  | [Solution]()
 [1848](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | Minimum Distance to the Target Element | easy |  | [Solution]()
 [1880](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/) | Check if Word Equals Summation of Two Words | easy |  | [Solution]()
-
-## Helpful packages
-Visualize leetcode trees
-```
-$ npm install -g treevis
-$ treevis <array>
-```
+[56](https://leetcode.com/problems/merge-intervals/submissions/) | Merge Intervals | medium | Sorting on arrival time and then comparing if they can be merged | [Solution]()
+[746](https://leetcode.com/problems/min-cost-climbing-stairs/) | Min Cost Climbing Stairs | easy | Simple dp with adding cost. Skip cost for base conditions | [Solution]()
