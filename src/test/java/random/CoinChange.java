@@ -55,8 +55,7 @@ public class CoinChange {
             change -= coins * coin.getDenom();
         }
         if (change != 0) { // you will only hit this, if you have limited coins. So you will have to modify accordingly
-            throw new RuntimeE            if (coins != 0)
-                xception("Change cannot be provided");
+            throw new RuntimeException("Change cannot be provided");
         }
         return map;
     }
