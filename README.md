@@ -3,6 +3,7 @@
 [![CI Tests](https://github.com/akksshah/LeetCodePractice/actions/workflows/maven.yml/badge.svg)](https://github.com/akksshah/LeetCodePractice/actions/workflows/maven.yml)
 
 ## Table of Contents
+____________________
 
 LC QNo. | name | Tag | Notes | Solution
 ---- | --- | ----  | ---- | ----
